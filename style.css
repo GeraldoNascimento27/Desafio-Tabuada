@@ -1,0 +1,58 @@
+body {
+    background-color:  rgb(48,48,48);
+    text-align: center;
+    color: rgb(239,235,225);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
+}
+
+header {
+    display: grid;
+    grid-auto-flow: column;
+    grid-auto-columns: 33vw;
+}
+
+section {
+    background-color: rgb(230, 230, 230);
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    margin: auto;
+    padding: 10px;
+    color: black;
+    border-radius: 20px;
+}
+
+#form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 15px;
+    border-radius: 15px;
+}
+p{
+    margin: 2px;
+    margin-bottom: 5px;
+}
+input{
+    margin-bottom: 20px;
+    width: 200px;
+    border: 0;
+    border-radius: 10px;
+    height: 20px;
+    text-align: center;
+}
+button {
+    height: 30px;
+    background-color: blue;
+    border: 0;
+    border-radius: 10px;
+    width: 150px;
+    color: aliceblue;
+    cursor: pointer;
+}
+
+img {
+    width: 80px;
+    padding: 17px;
+}
